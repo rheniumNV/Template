@@ -6,6 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node app.js",
+    "start_dev": "nodemon src/app.js",
     "format": "npx prettier --write **/*.js",
     "eslint": "eslint --fix **/*.js"
   },
@@ -27,6 +28,7 @@
     "eslint-plugin-import": "^2.22.1",
     "husky": "^5.1.2",
     "lint-staged": "^10.5.4",
+    "nodemon": "^2.0.7",
     "prettier": "^2.2.1"
   },
   "lint-staged": {
